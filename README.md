@@ -1,0 +1,1 @@
+![Alternative Text](https://github.com/rishicyber/todays-day-date-wallpaper/blob/main/output/wallpaper.png)
