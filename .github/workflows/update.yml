@@ -2,7 +2,7 @@ name: Update Wallpaper
 
 on:
   schedule:
-    - cron: "1 0 * * *"
+    - cron: "31 18 * * *"   # Runs at 12:01 AM IST every day
   workflow_dispatch:
 
 permissions:
