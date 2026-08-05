@@ -9,9 +9,11 @@ TEXT = (170, 170, 170)
 
 font = ImageFont.truetype("fonts/genshin_font.ttf", 48)
 
-today = datetime.utcnow()
+# today = datetime.utcnow()
+today = datetime.now()
 
-text = today.strftime("%A\n%d %B %Y")
+# text = today.strftime("%A\n%d %B %Y")
+text = today.strftime("%A\n%d %B %Y\n%I:%M %p")
 
 img = Image.new("RGB", (WIDTH, HEIGHT), BACKGROUND)
 draw = ImageDraw.Draw(img)
