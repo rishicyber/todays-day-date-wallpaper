@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
-from datetime import datetime
+from datetime import datetime, timedelta
 
 WIDTH = 1170
 HEIGHT = 2532
@@ -10,7 +10,7 @@ TEXT = (170, 170, 170)
 font = ImageFont.truetype("fonts/genshin_font.ttf", 48)
 
 # today = datetime.utcnow()
-today = datetime.now()
+today = datetime.now() + timedelta(hours=5, minutes=30)
 
 # text = today.strftime("%A\n%d %B %Y")
 text = today.strftime("%A\n%d %B %Y\n%I:%M %p")
